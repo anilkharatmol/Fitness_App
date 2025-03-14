@@ -33,10 +33,10 @@ export default function BmiCalculator(){
 
     return(
      <Fragment> 
-      <Typography variant="h5" mt='20px' textAlign='center'>The body mass index (BMI) is a measure that uses </Typography>
-      <Typography variant="h5"  textAlign='center'> your height and weight to work out if your weight is healthy.</Typography>
-<Grid>
-  <Card sx={{ maxWidth: {lg:'25%',xs:'15%%'}, padding: "20px 5px", margin: "0 auto" ,marginTop:'1cm',border:'2px solid black',borderRadius:'20px'}}>
+      <Typography variant="h5" mt='20px' textAlign='left' padding="10px 30px" fontSize="20px" >The body mass index (BMI) is a measure that uses
+      your height and weight to work out if your weight is healthy.</Typography>
+<Grid paddingBottom="40px">
+  <Card sx={{ maxWidth: {lg:'30%',xs:'80%',sm:'60%',md:'40%'}, padding: "20px 5px", margin: "0 auto" ,marginTop:'1cm',border:'2px solid black',borderRadius:'20px'}}>
     <CardContent>
     <Typography  variant="h5"  fontWeight='600' mb='20px' align="center">
  BMI CALCULATOR
